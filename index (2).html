@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style (1).css">
+
+  <title>Responsive Portfolio Website — INTKAF KHAN</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">INTKAF KHAN</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li><a href="#about" class="nav__link">About Me</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#work" class="nav__link">Work</a></li>
+          <li><a href="#certifications" class="nav__link">Certifications</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__actions">
+        <a href="#contact" class="button button__ghost">Hire Me</a>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+          <i class="ri-menu-3-line"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home section" id="home">
+      <div class="home__container container">
+        <div class="home__data">
+          <p class="home__greeting">Hello, I'm</p>
+
+          <h1 class="home__name">INTKAF<br>KHAN</h1>
+
+          <p class="home__split">STUDENT</p>
+
+          <h2 class="home__profession">
+            <span>FRONT DEVELOPER</span>
+            <span>BACKEND DEVELOPER</span>
+          </h2>
+
+          <p class="home__roles">
+            <span id="home-rotating" class="typewriter"></span>
+          </p>
+
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/intkaf-khan-62694b413/" class="home__social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="https://github.com/khanintkaf48-cmyk" class="home__social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="ri-github-fill"></i>
+            </a>
+          </div>
+
+          <div class="home__buttons">
+            <a href="#projects" class="button">View Projects <i class="ri-arrow-right-line"></i></a>
+            <a href="#contact" class="button button__ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="home__image">
+          <img src="me - Copy.png" alt="INTKAF KHAN">
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about__container container">
+        <div class="about__data">
+          <h2 class="section__title"><span>Innovation</span><br>Drives My Work</h2>
+
+          <p class="about__description">
+            I'm a <b>Computer Science Engineering Student</b> passionate about learning
+            <b>Software Development</b>, <b>Web Development</b>, and <b>Programming</b>.
+            I enjoy building projects, experimenting with new technologies, and improving
+            my skills in <b>Python</b>, <b>C++</b>, <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.
+            I'm focused on turning my ideas into real-world projects and growing into
+            a skilled <b>Software Developer</b>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="projects__outer">
+        <div class="container">
+          <h2 class="section__title">I Build Intelligent<br><span>Some projects</span></h2>
+
+          <div class="projects__container">
+            <div class="projects__grid">
+
+              <article class="projects__card">
+                <span class="projects__number">01</span>
+                <h3 class="projects__title">AI Resume</h3>
+                <p class="projects__subtitle">AI / Resume Project</p>
+                <p class="projects__description">
+                  AI-powered resume project focused on intelligent resume processing,
+                  automation, and practical software development.
+                </p>
+                <div class="projects__tech">
+                  <i class="devicon-python-plain colored"></i>
+                  <i class="devicon-tensorflow-original colored"></i>
+                  <i class="devicon-opencv-plain colored"></i>
+                  <i class="ri-cpu-line"></i>
+                </div>
+                <p class="projects__cta">
+                  <a href="https://github.com/khanintkaf48-cmyk/AI-Resume" target="_blank" rel="noopener noreferrer">View Project</a>
+                </p>
+              </article>
+
+              <article class="projects__card">
+                <span class="projects__number">02</span>
+                <h3 class="projects__title">Catch-up-Box</h3>
+                <p class="projects__subtitle"></p>
+                <p class="projects__description">
+                   An interactive browser-based game where the player has to quickly click/catch
+                    a randomly moving box to score points. The project focuses on JavaScript event handling,
+                </p>
+                <div class="projects__tech">
+                  <i class="devicon-python-plain colored"></i>
+                  <i class="devicon-opencv-plain colored"></i>
+                </div>
+                <p class="projects__cta">
+                  <a href="https://github.com/khanintkaf48-cmyk/game.demo" target="_blank" rel="Ctch-up-Box">View Project</a>
+                </p>
+              </article>
+
+              <article class="projects__card">
+                <span class="projects__number">03</span>
+                <h3 class="projects__title">Resume Analyzer + Gemini Chatbot</h3>
+                <p class="projects__subtitle">AI / Automation</p>
+                <p class="projects__description">
+                  Resume analysis and chatbot concept for parsing, scoring, and
+                  interactive candidate screening.
+                </p>
+                <div class="projects__tech">
+                  <i class="devicon-python-plain colored"></i>
+                  <i class="ri-robot-2-line"></i>
+                </div>
+                <p class="projects__cta">
+                  <a href="https://github.com/Siyran/Resume-Analyzer-AI-Powered-Screening" target="_blank" rel="noopener noreferrer">View Project</a>
+                </p>
+              </article>
+
+              <article class="projects__card">
+                <span class="projects__number">04</span>
+                <h3 class="projects__title">Brain Tumor Classification</h3>
+                <p class="projects__subtitle">ML / Distillation</p>
+                <p class="projects__description">
+                  Machine-learning project for image classification and optimized
+                  inference.
+                </p>
+                <div class="projects__tech">
+                  <i class="devicon-python-plain colored"></i>
+                  <i class="devicon-pytorch-original colored"></i>
+                </div>
+                <p class="projects__cta">
+                  <a href="https://github.com/Siyran/Brain-Tumor-Classification-" target="_blank" rel="noopener noreferrer">View Project</a>
+                </p>
+              </article>
+
+              <article class="projects__card">
+                <span class="projects__number">05</span>
+                <h3 class="projects__title">IUST Admission Queries Chatbot</h3>
+                <p class="projects__subtitle">Chatbot / WhatsApp</p>
+                <p class="projects__description">
+                  Chatbot project designed to automate university admission questions
+                  and responses.
+                </p>
+                <div class="projects__tech">
+                  <i class="ri-message-3-line"></i>
+                  <i class="ri-robot-2-line"></i>
+                </div>
+                <p class="projects__cta">
+                  <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">View Project</a>
+                </p>
+              </article>
+
+              <article class="projects__card">
+                <span class="projects__number">06</span>
+                <h3 class="projects__title">Monitoring &amp; Disinfection System</h3>
+                <p class="projects__subtitle">IoT + AI</p>
+                <p class="projects__description">
+                  Sensor-driven monitoring and automatic disinfection system concept
+                  combining IoT and AI.
+                </p>
+                <div class="projects__tech">
+                  <i class="ri-cpu-line"></i>
+                  <i class="ri-wifi-line"></i>
+                </div>
+                <p class="projects__cta">
+                  <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">View Project</a>
+                </p>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="container">
+        <h2 class="section__title"><span>My</span> Work</h2>
+        <p class="section__description">
+          I am continuously building projects and improving my programming,
+          web-development, and software-development skills.
+        </p>
+      </div>
+    </section>
+
+    <section class="certifications section" id="certifications">
+      <div class="container">
+        <h2 class="section__title"><span>Certifications</span></h2>
+
+        <div class="certs__grid">
+          <article class="cert__card">
+            <div class="cert__row">
+              <div class="cert__icon"><i class="ri-award-line"></i></div>
+              <h3 class="cert__title">Learning & Development</h3>
+            </div>
+            <p>Certificates and achievements can be added here.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section__title"><span>Contact</span> Me</h2>
+        <p class="section__description">
+          Interested in my work? Connect with me through LinkedIn or GitHub.
+        </p>
+        <div class="contact__buttons">
+          <a class="button" href="https://www.linkedin.com/in/intkaf-khan-62694b413/" target="_blank" rel="noopener noreferrer">
+            LinkedIn <i class="ri-linkedin-box-fill"></i>
+          </a>
+          <a class="button button__ghost" href="https://github.com/khanintkaf48-cmyk" target="_blank" rel="noopener noreferrer">
+            GitHub <i class="ri-github-fill"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 INTKAF KHAN. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById("nav-toggle");
+    const navMenu = document.getElementById("nav-menu");
+
+    if (navToggle && navMenu) {
+      navToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("show-menu");
+      });
+
+      document.querySelectorAll(".nav__link").forEach(link => {
+        link.addEventListener("click", () => {
+          navMenu.classList.remove("show-menu");
+        });
+      });
+    }
+
+    const roles = [
+      "Web Developer",
+      "Python Developer",
+      "Software Developer",
+      "AI & ML Learner"
+    ];
+
+    const rotating = document.getElementById("home-rotating");
+    let roleIndex = 0;
+
+    function showRole() {
+      if (!rotating) return;
+      rotating.textContent = roles[roleIndex];
+      roleIndex = (roleIndex + 1) % roles.length;
+    }
+
+    showRole();
+    setInterval(showRole, 2200);
+  </script>
+</body>
+</html>
